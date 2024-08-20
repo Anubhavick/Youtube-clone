@@ -1,0 +1,44 @@
+.we-got-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    left: 75px;
+    height: 60px;
+    z-index: 1000;
+    background-color: white;
+    max-width: none;
+    min-width: 500px;
+}
+
+
+.clickchoice {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 0.3px;
+    border-style: solid;
+    border-color: rgb(192, 183, 183);
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.clickchoice:hover {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 0.3px;
+    border-style: solid;
+    border-color: rgb(223, 222, 222);
+    font-size: 14px;
+    font-weight: 400px;
+    box-shadow: 0px 1px 5px rgb(166, 164, 164);
+}
